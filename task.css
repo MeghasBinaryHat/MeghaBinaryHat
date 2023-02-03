@@ -1,0 +1,33 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    width: 100%;
+} 
+#text{
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    background-image: url("flower.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+.content{
+    /* border: 1px solid #000000; */
+    float:right;
+    width: 50%;
+    /* height:40%; */
+}
+.content p{
+    text-align: center;
+    /* margin-left: 80px; */
+}
+.content h4{
+    padding: 10px;
+    font-size: 10px;
+}
